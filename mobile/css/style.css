@@ -1,0 +1,129 @@
+body {
+	margin:0em;
+	padding:0em;
+	background:#000;
+	color:#FFF;
+}
+
+#header {
+	width:auto;
+	margin:0em;
+	padding:0em;
+	text-align:center;
+}
+
+#menu {
+	margin:0em;
+	padding:0.3em;
+	background:url(../img/bgmenu.jpg) repeat-x;
+}
+
+#menu a {
+	padding:0em 0.em;
+	color:#FFF;
+	font-family:Arial;
+	font-size:0.7em;
+	text-decoration:none;
+}
+
+#conteudo {
+	padding:0.5em;
+	background:#000;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:small;
+	color:#FFF;
+}
+
+#conteudo h2{
+	clear:both;
+	margin-top:1em;
+}
+
+#conteudo table td {
+	text-align:center;
+	padding:0.6em;
+	font-family:arial;
+	font-size:0.8em;
+}
+
+#conteudo table td.bg {
+	background:#333;	
+}
+
+#conteudo hr {
+	clear:both;
+	border:0em;
+}
+
+#conteudo div img {
+	margin-right:1.0em;
+}
+
+#conteudo div h3{
+	font-size:1.0em;
+}
+
+#conteudo div ul{
+	list-style:none;
+}
+
+#conteudo div ul li{
+	font-size:0.7em;
+}
+
+#conteudo form {
+	margin-left:20px;
+}
+
+#conteudo label {
+	font-family : Arial, Helvetica, sans-serif;
+	font-size : 11px;
+	color : #666;
+	padding : 2px 0px 0px 5px;
+}
+
+#conteudo input {
+	font-family  : Arial, Helvetica, sans-serif;
+	width : 350px;
+	padding : 2px;
+	color : #F00;
+	border : #FFF solid 1px;
+}
+
+#conteudo #txtTelefone {
+	width : 100px;
+}
+
+#conteudo select {
+	font-family : Arial, Helvetica, sans-serif;
+	width : 100px;
+	padding : 2px;
+	color : #F00;
+	border: #FFF solid 1px;
+}
+
+#conteudo textarea {
+	font-family : Arial, Helvetica, sans-serif;
+	display : block;
+	width : 350px;
+	padding : 2px;
+	color : #F00;
+	border : #FFF solid 1px;
+}
+
+#conteudo .btnSubmit {
+	background : #F00;
+	color : #FFF;
+	font-size : 12px;
+	font-family : Arial, Helvetica, sans-serif;
+	padding : 5px;
+	width : 150px;
+	margin : 10px 0px;
+	border : #FFF solid 1px;
+}
+
+.current {
+	background:url(../img/bgcurrent.jpg) repeat-x;
+	padding:0.8em !important;
+	color:#C00 !important;
+}

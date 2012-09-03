@@ -1,0 +1,68 @@
+<!DOCTYPE html PUBLIC "-//WAPFORUM//DTD XHTML Mobile 1.0//EN"
+"http://www.wapforum.org/DTD/xhtml-mobile10.dtd">
+<html>
+<head>
+
+	<title>Five Rounds</title>
+	
+	<meta http-equiv="cache-control" content="public" />
+	<meta http-equiv="pragma" content="no-cache" />
+	<meta http-equiv="Content-Type" content="application/xml+xhtml; charset=UTF-8" />
+	
+	<link rel="stylesheet" type="text/css" href="css/style.css" />
+	
+</head>
+<body>
+	<div id="header">
+		<img src="img/arena.jpg" alt="Five Rounds" />
+	</div>
+	<div id="menu">
+		<a href="index.html">Home</a>
+		<a href="modalidades.html">Modalidade</a>
+		<a href="professores.html">Professores</a>
+		<a href="matricule.html">Matricule-se</a>
+		<a class="current" href="contato.html">Contato</a>
+	</div>
+	<div id="conteudo">
+	
+		<h1>Contato</h1>
+		
+		<form name="frmContatos" id="frmContatos" method="post" action="send.php">
+				<label>Nome:</label><br>
+				<input type="text" name="txtNome" id="txtNome"><br>
+				
+				<label>Email:</label><br>
+				<input type="text" name="txtEmail" id="txtEmail"><br>
+				
+				<label>Telefone:</label><br>
+				<input type="text" name="txtTelefone" id="txtTelefone"><br>
+				
+				<label>Modalidade:</label><br>
+				<select name="select_modalidades" id="select_modalidades">
+					<option value="MMA">MMA</option>
+					<option value="Jiu-jitsu">Jiu-jitsu</option>
+					<option value="Boxe">Boxe</option>
+					<option value="Hapkido">Hapkido</option>
+					<option value="Karatê">Karatê</option>
+					<option value="Krav-maga">Krav Maga</option>
+					<option value="Kung-fu">Kung Fu</option>
+				</select><br>
+				
+				<label>Assunto:</label><br>
+				<input type="text" name="txtAssunto" id="txtAssunto"><br>
+				
+				<label>Mensagem:</label><br>
+				<textarea name="txtMensagem" id="txtMensagem" rows="3"></textarea><br>
+				
+				<input class="btnSubmit" type="submit" id="btnSubmit" name="btnSubmit" value="ENVIAR MENSAGEM">
+				
+			</form>
+			
+			<p>
+				SIG Quadra 6, Brasília-DF (Em frente ao Stadt Bier)<br>
+				galiza@fiverounds.com.br - (61) 81767638
+			</p>
+		
+	</div>
+</body>
+</html>

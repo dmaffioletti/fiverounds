@@ -1,0 +1,324 @@
+/* 
+=========================================
+author  : Daniel Machado Maffioletti
+email   : dmaffioletti[at]gmail[dot]com
+twitter : @dmaffioletti
+=========================================
+*/
+
+body {
+	padding     : 0px;
+	margin      : 0px;
+	color       : #FFF;
+	background  : #000;
+	overflow    : hidden;
+}
+
+body #blog {
+	position	: relative;
+	top         : -360px;
+	left        : 60%;
+	/*background  : url(../img/blog-five-rounds.png) top center no-repeat;*/
+	width		: 276px;
+	height		: 351px;
+	z-index     : 999;
+	padding     : 0px;
+}
+
+div#bgPrimary {
+	position    : absolute;
+	left        : 0px;
+	top         : 0px;
+	padding     : 0px;
+	margin      : 0px;
+	width       : 100%;
+	height      : 100%;
+	background  : url('../img/bg1.jpg') repeat-x 0px 0px #000;
+	z-index     : 0;
+}
+
+div#bgSecond {
+	position    : absolute;
+	left        : 0px;
+	top         : 0px;
+	padding     : 0px;
+	margin      : 0px;
+	width       : 100%;
+	height      : 100%;
+	background  : url('../img/bg2.jpg') no-repeat 0px 0px #000;
+	z-index     : 1;
+}
+
+div#menu {
+	border      : #FFF solid 0px;
+	width       : 905px;
+	height      : 100px;
+	position    : absolute;
+	left        : 50%;
+	top         : 80%;
+	margin-left : -480px;
+	margin-top  : -10px;
+	background  : url('../img/menu.gif') no-repeat;
+	z-index     : 999;
+}
+
+html > body div#menu {
+	background  : url('../img/menu.png') no-repeat;
+}
+
+div#menu ul {
+	padding     : 0px;
+	margin      : 0px;
+	list-style  : none;
+}
+
+div#menu ul li {
+	margin-top  : 40px;
+	float       : left;
+	border      : #FFF solid 0px;
+}
+
+div#menu ul li a {
+	color           : #999;
+	padding         : 10px;
+	margin-left     : 10px;
+	border          : #FFF solid 0px;
+	text-decoration : none;
+	font-family     : Arial;
+}
+
+div#menu ul li a#linkfiverounds {
+	padding : 10px 60px 10px 10px;
+}
+
+div#menu ul li a:hover {
+	color       : #FFF;
+}
+
+div#teachers {
+	border      : #FFF solid 0px;
+	position    : absolute;
+	top         : 29%;
+	left        : 50%;
+	margin-left : -444px;
+	width       : 889px;
+	height      : 416px;
+	z-index     : 5;
+}
+
+div#teachers div#teacher01,
+div#teachers div#teacher02,
+div#teachers div#teacher03,
+div#teachers div#teacher04,
+div#teachers div#teacher05,
+div#teachers div#teacher06,
+div#teachers div#teacher07 {
+	border      : #FFF solid 0px;
+	float       : left;
+	width       : 100px;
+	height      : 408px;
+	margin      : 3px;
+	text-indent : -5000px;
+}
+
+div#teachers div#teacher03 { margin-left:30px; }
+div#teachers div#teacher04 { margin-left:15px; }
+div#teachers div#teacher05 { margin-left:20px; }
+div#teachers div#teacher06 { margin-left:40px; }
+
+div#teachers div#teacher01 ul,
+div#teachers div#teacher02 ul,
+div#teachers div#teacher03 ul,
+div#teachers div#teacher04 ul,
+div#teachers div#teacher05 ul,
+div#teachers div#teacher06 ul,
+div#teachers div#teacher07 ul {
+	list-style  : none;
+}
+
+div#container {
+	width       : 700px;
+	height      : 1100px;
+	position    : absolute;
+	top         : -1125px;
+	left        : 75%;
+	margin-left : -350px;
+	background  : url('../img/bgcontainer.png');
+	z-index     : 10;
+	display     : block;
+	padding     : 10px;
+}
+
+#container div h2 {
+	font-size    : 40px;
+	font-family  : Cuprum, arial;
+	margin       : 10px;
+	padding      : 10px 0px 0px 65px;
+	background   : url('../img/close.gif') no-repeat 0px 3px;
+	display      : block;
+	cursor       : pointer;
+}
+
+html > body #container div h2 {
+	background   : url('../img/close.png') no-repeat 0px 3px;
+}
+
+#container #fiverounds p {
+	width : 400px;
+	font-family  : Arial, Helvetica, sans-serif;
+	font-size    : 12px;
+	color        : #CCC;
+	margin-left  : 22px;
+	text-align   : justify;
+}
+
+#container #fiverounds p span {
+	color        : #FFF;
+}
+
+#container #contato p {
+	font-family  : Arial, Helvetica, sans-serif;
+	font-size    : 12px;
+	color        : #CCC;
+	margin-left  : 22px;
+}
+
+#container #modalidades table td {
+	text-align  : center;
+	padding     : 10px;
+	font-family : arial;
+	font-size   : 12px;
+}
+
+#container #modalidades table td:nth-child(2n) {
+	background : #333;	
+}
+
+#container #contato form {
+	margin-left : 20px;
+}
+
+#container #contato label {
+	font-family : Arial, Helvetica, sans-serif;
+	font-size   : 11px;
+	color       : #666;
+	display     : block;
+	padding     : 2px 0px 0px 5px;
+}
+
+#container #contato input {
+	font-family           : Arial, Helvetica, sans-serif;
+	display               : block;
+	width                 : 350px;
+	padding               : 2px;
+	color                 : #F00;
+	border                : #FFF solid 1px;
+	
+	border-radius         : 5px;
+	-moz-border-radius    : 5px;
+	-webkit-border-radius : 5px;
+}
+
+#container #contato input#txtTelefone {
+	width                 : 100px;
+}
+
+#container #contato input:hover, #container #contato input:focus {
+	background            : #FFC;
+}
+
+#container #contato select {
+	font-family           : Arial, Helvetica, sans-serif;
+	display               : block;
+	width                 : 100px;
+	padding               : 2px;
+	color                 : #F00;
+	border                : #FFF solid 1px;
+	
+	border-radius         : 5px;
+	-moz-border-radius    : 5px;
+	-webkit-border-radius : 5px;
+}
+
+#container #contato select:hover, #container #contato select:focus {
+	background            : #FFC;
+}
+
+#container #contato textarea {
+	font-family           : Arial, Helvetica, sans-serif;
+	display               : block;
+	width                 : 350px;
+	padding               : 2px;
+	color                 : #F00;
+	border                : #FFF solid 1px;
+	
+	border-radius         : 5px;
+	-moz-border-radius    : 5px;
+	-webkit-border-radius : 5px;
+}
+
+#container #contato textarea:hover, #container #contato textarea:focus {
+	background            : #FFC;
+}
+
+#container #contato .btnSubmit {
+	background            : #F00;
+	color                 : #FFF;
+	font-size             : 12px;
+	font-family           : Arial, Helvetica, sans-serif;
+	padding               : 5px;
+	width                 : 150px;
+	margin                : 10px 0px;
+	border                : #FFF solid 1px;
+	
+	border-radius         : 5px;
+	-moz-border-radius    : 5px;
+	-webkit-border-radius : 5px;
+}
+
+#container #contato .btnSubmit:hover {
+	background : #900;
+	cursor     : pointer;
+}
+
+#container #contato .btnSubmit:focus {
+	background : #900;
+}
+
+/*
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Tool-Tip
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*/
+.cool-tip-box{
+    display  : block;
+    position : absolute;
+    z-index  : 5000;
+	opacity  : 0.7;
+}
+
+.cool-tip-box .cool-tip-box-content {
+	background  : url('../img/bgcontainer.png');
+    color       : #fff;
+    font-family : Arial, sans-serif;
+    font-size   : 11px;
+    position    : absolute;
+    text-align  : left;
+    width       : 150px;
+	border      : #666 solid 1px;
+}
+
+.error {
+	color : #F00 !important;
+	margin-left:30px;
+}
+
+.success {
+	color : #0C0 !important;
+	margin-left:30px;
+}
+
+* {
+	outline     : none;
+	font-family : Ubuntu;
+}
